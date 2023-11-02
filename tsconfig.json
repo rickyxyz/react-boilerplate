@@ -20,6 +20,12 @@
     "noUnusedParameters": true,
     "noFallthroughCasesInSwitch": true
   },
-  "include": ["src", ".eslintrc.cjs", ".prettierrc.cjs", "vite.config.ts"],
+  "include": [
+    "src",
+    ".eslintrc.cjs",
+    ".prettierrc.cjs",
+    "vite.config.ts",
+    "setupTests.ts"
+  ],
   "references": [{ "path": "./tsconfig.node.json" }]
 }
