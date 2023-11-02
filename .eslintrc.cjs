@@ -8,6 +8,7 @@ module.exports = {
     'plugin:@typescript-eslint/recommended',
     'plugin:react/recommended',
     'plugin:react-hooks/recommended',
+    'plugin:vitest/recommended',
     'plugin:prettier/recommended',
   ],
   overrides: [
@@ -27,7 +28,13 @@ module.exports = {
     sourceType: 'module',
     project: './tsconfig.json',
   },
-  plugins: ['@typescript-eslint', 'react', 'react-refresh', 'prettier'],
+  plugins: [
+    '@typescript-eslint',
+    'react',
+    'react-refresh',
+    'vitest',
+    'prettier',
+  ],
   rules: {
     'react/react-in-jsx-scope': 'off',
     'react-refresh/only-export-components': [
