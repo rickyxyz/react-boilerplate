@@ -23,5 +23,9 @@ dist-ssr
 *.sln
 *.sw?
 
-# test files
+# Test files
 coverage/
+
+# Secrets
+.env
+.env.local
