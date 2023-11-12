@@ -53,5 +53,11 @@ module.exports = {
       'warn',
       { allowConstantExport: true },
     ],
+    '@typescript-eslint/no-confusing-void-expression': [
+      'error',
+      {
+        ignoreArrowShorthand: true,
+      },
+    ],
   },
 };
