@@ -10,14 +10,12 @@ module.exports = {
   },
   extends: [
     'eslint:recommended',
-    // 'plugin:@typescript-eslint/recommended',
     'plugin:@typescript-eslint/strict-type-checked',
     'plugin:@typescript-eslint/stylistic-type-checked',
     'plugin:react/recommended',
     'plugin:react/jsx-runtime',
     'plugin:react-hooks/recommended',
     'plugin:vitest/recommended',
-    'plugin:storybook/recommended',
     'plugin:prettier/recommended',
   ],
   overrides: [
@@ -29,6 +27,16 @@ module.exports = {
       parserOptions: {
         sourceType: 'script',
       },
+    },
+    // Configuration for Storybook
+    {
+      files: ['./stories/**/*.stories.*'],
+      extends: ['plugin:storybook/recommended'],
+    },
+    // Configuration for e2e testing (Playwright)
+    {
+      files: ['./tests/e2e/**/*'],
+      extends: ['plugin:playwright/recommended'],
     },
   ],
   parser: '@typescript-eslint/parser',
