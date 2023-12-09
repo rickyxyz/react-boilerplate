@@ -16,9 +16,11 @@
     "eslint",
     "tailwind",
     "postcss",
-    "prettier"
+    "prettier",
+    "playwright"
   ],
   "scripts": {
+    "setup": "npm install && npx playwright install-deps",
     "dev": "vite",
     "build": "tsc && vite build",
     "lint": "eslint . --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
