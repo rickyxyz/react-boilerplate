@@ -18,6 +18,7 @@ module.exports = {
     'plugin:vitest/recommended',
     'plugin:prettier/recommended',
   ],
+  ignorePatterns: ['!.storybook'],
   overrides: [
     {
       env: {
