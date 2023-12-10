@@ -1,5 +1,5 @@
 import { Meta, StoryObj } from '@storybook/react';
-import App from '../src/App';
+import App from '../App';
 
 const meta = {
   title: 'App page',

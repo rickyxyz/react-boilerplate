@@ -31,7 +31,7 @@ module.exports = {
     },
     // Configuration for Storybook
     {
-      files: ['./stories/**/*.stories.*'],
+      files: ['src/stories/**/*.stories.*'],
       extends: ['plugin:storybook/recommended'],
     },
     // Configuration for e2e testing (Playwright)
