@@ -7,12 +7,19 @@ const customViewports = {
   mobile_sm: {
     name: 'mobile sm',
     styles: {
+      width: '320px',
+      height: '600px',
+    },
+  },
+  mobile_md: {
+    name: 'mobile md',
+    styles: {
       width: '360px',
       height: '800px',
     },
   },
-  mobile_dm: {
-    name: 'mobile md',
+  mobile_lg: {
+    name: 'mobile lg',
     styles: {
       width: '428px',
       height: '926px',
