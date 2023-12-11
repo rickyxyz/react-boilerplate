@@ -74,5 +74,6 @@ export default defineConfig({
     url: 'http://localhost:5173',
     stdout: 'ignore',
     stderr: 'pipe',
+    reuseExistingServer: true,
   },
 });
