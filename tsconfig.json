@@ -36,7 +36,9 @@
     "postcss.config.js",
     "tailwind.config.ts",
     "playwright.config.ts",
-    ".storybook/**/*"
+    ".storybook/**/*",
+    "stories",
+    "tests/**/*"
   ],
   "exclude": ["node_modules", "dist", "storybook-static"]
 }

@@ -31,12 +31,12 @@ module.exports = {
     },
     // Configuration for Storybook
     {
-      files: ['src/stories/**/*.stories.*'],
+      files: ['stories/**/*.stories.*'],
       extends: ['plugin:storybook/recommended'],
     },
     // Configuration for e2e testing (Playwright)
     {
-      files: ['./tests/e2e/**/*'],
+      files: ['tests/e2e/**/*'],
       extends: ['plugin:playwright/recommended'],
     },
   ],
